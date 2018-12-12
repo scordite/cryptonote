@@ -34,8 +34,17 @@ $ make
 
 ## Wait for the wallet to compile
 
+# Step 2: Enter the compiled folder and start the deamon
 
-# Step 2: Enter the compiled folder and start the wallet
+$ cd
+
+$ cd scordite/build/release/src
+
+$ ./scordited
+
+## Wait until the blockchain is synced
+
+# Step 3: Enter the compiled folder and start the wallet
 
 $ cd
 
