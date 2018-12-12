@@ -1,3 +1,4 @@
+// Copyright (c) 2011-2016 Scordite Devs
 // Copyright (c) 2011-2016 The Cryptonote developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -125,12 +126,13 @@ __attribute__((unused))
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
   { 1000, "bef5b122d44ec8b970d6e2f22abf2de70086adcbf37193d13a3c5c7947e3a15f" },
   { 2500, "a6f36f87b22001364bf5cf8c07d1547ea6f8ad9f357b31d67d21aefe7217b1e4" },
-  { 4000, "cada9abee669ce4777ae98df4555acc1a135b74a90204ec4e0428f659859d7a2" },
   { 5000, "ec213f317186fa35c5ef5aa43604f9c63840793709cec0a884d73930006583f5" },
-  { 7000, "7f27188dbb69478a6dab38679c55183c51500cf7e80e1d3701f5089842b1f042" },
   { 10000, "bdc35d2a308a45add943c0ee6411b77dcb98b59049dfb2fcdda0dd7f97dde7ce" },
-  { 12500, "72cd61b5f387349ace75a1b93ace27af798b203b19b3cc63707de7faff77aeb1" },
+  { 15000, "7238fc52521f5592944c0cd05b118a79f2fac499954e187550ba43a64abcc0ae" },
+  { 20000, "6ea6d29eeb1c71633f9b192788a43618ab67ab4a343e902a562057396d59cd63" },
+  { 25000, "be3bc8e7ccba283d38998fcce80662b9d348c8a8433c3f0dba52e48ea1b601b5" },
+  { 30000, "9e65d2813f5233f84fdce5e9c4f1370309711922e0cd2414a587374c058aa36c" },
 };
-} // CryptoNote
+} // Scordite
 
 #define ALLOW_DEBUG_COMMANDS
