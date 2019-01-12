@@ -16,7 +16,7 @@ Windows CLI Wallet: https://github.com/scordite/scordite/releases/download/scord
 
 
 
-# Guide - Linux Compiling
+# Guide - Linux building from source
 
 
 ## Make sure your machine is ready for compiling:
