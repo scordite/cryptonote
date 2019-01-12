@@ -11,6 +11,7 @@ Web: scordite.one
 GitHub: https://github.com/scordite/scordite
 
 Linux CLI Wallet: https://github.com/scordite/scordite/releases/download/scordite_cli_v1.1.1.1/scordite.Wallet.Linux.v1.1.1.tar.gz
+
 Windows CLI Wallet: https://github.com/scordite/scordite/releases/download/scordite_cli_v1.1.1.1/Scordite.Wallet.Win.v1.1.1.1.7z
 
 
