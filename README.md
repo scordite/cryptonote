@@ -19,7 +19,7 @@ Windows CLI Wallet: https://github.com/scordite/scordite/releases/download/scord
 # Guide - Linux building from source
 
 
-## Make sure your machine is ready for compiling:
+## Make sure your machine is ready for the job:
 
 
 $ sudo apt-get update
@@ -28,8 +28,7 @@ $ sudo apt-get install build-essential git cmake libboost-all-dev python make au
 
 
 
-
-# Step 1: Compile and start your wallet with the following steps
+# Step 1: Start with the following steps
 
 $ git clone https://github.com/scordite/scordite.git  
                                                                  
@@ -38,11 +37,8 @@ $ cd scordite
 $ make                                                
 
 
-## Wait for the wallet to compile
 
-# Step 2: Enter the compiled folder and start the deamon
-
-$ cd
+# Step 2: Enter the folder and start the deamon
 
 $ cd scordite/build/release/src
 
@@ -50,9 +46,10 @@ $ ./scordited
 
 ## Wait until the blockchain is synced
 
-# Step 3: Enter the compiled folder and start the wallet
 
-$ cd
+
+
+# Step 3: Open new terminal and start the wallet
 
 $ cd scordite/build/release/src
 
