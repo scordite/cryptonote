@@ -6,7 +6,7 @@ Portions Copyright (c) 2012-2017 The Cryptonote developers.
 
 # Resources
 
-Web: scordite.one
+Web: www.scordite.one
 
 GitHub: https://github.com/scordite/scordite
 
