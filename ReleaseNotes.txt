@@ -1,4 +1,12 @@
-Release notes 1.1.2.1
+Release notes 1.1.2.2
+
+- Added new checkpoints
+- Added new seeds
+- Worked on stabilization
+- Edited formatting
+
+
+Release notes 1.1.1.1
 
 - Added GUI support
 - Added new checkpoints
