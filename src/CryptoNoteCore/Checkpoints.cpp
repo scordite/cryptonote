@@ -1,3 +1,4 @@
+// Copyright (c) 2018-2019 Scordite developers
 // Copyright (c) 2011-2016 The Cryptonote developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -15,12 +16,12 @@ bool Checkpoints::add_checkpoint(uint32_t height, const std::string &hash_str) {
   Crypto::Hash h = NULL_HASH;
 
   if (!Common::podFromHex(hash_str, h)) {
-    logger(ERROR) << "WRONG HASH IN CHECKPOINTS!!!";
+    logger(ERROR) << "OH NO! WRONG HASH IN CHECKPOINTS!!!";
     return false;
   }
 
   if (!(0 == m_points.count(height))) {
-    logger(ERROR) << "WRONG HASH IN CHECKPOINTS!!!";
+    logger(ERROR) << "OH NO! WRONG HASH IN CHECKPOINTS!!!";
     return false;
   }
 
@@ -41,7 +42,7 @@ bool Checkpoints::check_block(uint32_t  height, const Crypto::Hash &h,
 
   if (it->second == h) {
     logger(Logging::INFO, Logging::GREEN) 
-      << "CHECKPOINT PASSED FOR HEIGHT " << height << " " << h;
+      << "YEAH! CHECKPOINT PASSED FOR HEIGHT " << height << " " << h;
     return true;
   } else {
     logger(Logging::ERROR) << "CHECKPOINT FAILED FOR HEIGHT " << height
