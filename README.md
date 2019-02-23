@@ -10,10 +10,11 @@ Web: www.scordite.one
 
 GitHub: https://github.com/scordite/scordite
 
-Linux CLI Wallet: https://github.com/scordite/scordite/releases/download/scordite_cli_v1.1.1.1/scordite.Wallet.Linux.v1.1.1.tar.gz
+Linux CLI Wallet: https://github.com/scordite/scordite/releases/download/1.1.2.1/scordite_cli_wallet_linux_v1.1.2.1.tar.gz
 
-Windows CLI Wallet: https://github.com/scordite/scordite/releases/download/scordite_cli_v1.1.1.1/Scordite.Wallet.Win.v1.1.1.1.7z
+Linux GUI Wallet: https://github.com/scordite/scordite/releases/download/1.1.2.1/scordite_gui_wallet_linux_v1.1.2.1.tar.gz
 
+Windows CLI Wallet: https://github.com/scordite/scordite/releases/download/1.1.2.1/scordite_cli.wallet_windows_v1.1.2.1.7z
 
 
 # Guide - Linux building from source
