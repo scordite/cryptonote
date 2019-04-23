@@ -147,6 +147,7 @@ const std::initializer_list<CheckpointData> CHECKPOINTS = {
   { 140000, "68f99cebdff0cdbdb1441cd81aab8a2d1f9cef5603a7ade84676b9d9d717f259" },
   { 150000, "9d7df4830a45362265c9ef4d040aedd790125f3c40004f2bcbf2a16ec9bf57e6" },
   { 160000, "0801259b05f04f349ffc1a31f04a43d9cf9de21d313eaef2ee4de60d884f35c9" },
+  { 161697, "ebb5980154b2eb359f2bfa463ebdb5884320ef653d1998f8255c59f372e59022" },
 };
 } // Scordite
 
